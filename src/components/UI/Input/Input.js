@@ -7,7 +7,7 @@ const Input = props => {
   switch (props.elementType) {
     case "input":
       inputElement = (
-        <div>
+        <div className={classes.input}>
           <label>{props.name} </label>
           <label className={classes.switch}>
             <input onClick={props.changed} type="checkbox" />

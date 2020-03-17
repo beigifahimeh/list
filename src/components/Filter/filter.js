@@ -68,14 +68,10 @@ const Filter = props => {
           changed={event => inputChangedHandler(event, element.id)}
         ></Input>
       ))}
+      <Button clicked={submitHandler} Name="Filter"></Button>
     </form>
   );
-  return (
-    <div>
-      {form}
-      <Button clicked={submitHandler} Name="Filter"></Button>
-    </div>
-  );
+  return <div>{form}</div>;
 };
 const mapDispatchToProps = dispatch => {
   return {
