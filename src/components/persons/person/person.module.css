@@ -1,0 +1,27 @@
+.ul {
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.ul li h3 {
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 20px 10px;
+  background-color: rgb(230, 230, 230);
+}
+
+@media (min-width: 500px) {
+  .ul {
+    width: 70%;
+    margin: 10px auto;
+  }
+}
+@media (min-width: 800px) {
+  .ul {
+    max-width: 700px;
+    margin: 10px auto;
+  }
+}

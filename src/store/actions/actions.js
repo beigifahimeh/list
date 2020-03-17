@@ -1,0 +1,1 @@
+export const SUBMIT_FILTER = "SUBMIT_FILTER";
