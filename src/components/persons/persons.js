@@ -24,7 +24,7 @@ const Persons = props => {
     );
   });
   const customerSelectHandler = id => {
-    props.history.push({ pathname: "/persons/" + id });
+    props.history.push({ pathname: "/list/" + id });
   };
   let out = props.filter ? personsFilter : props.persons;
   const personsList = out.map(element => (
