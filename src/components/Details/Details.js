@@ -9,7 +9,7 @@ const Details = props => {
   );
 
   const clickHandler = () => {
-    props.history.push({ pathname: "/list" });
+    props.history.push({ pathname: "/list/" });
   };
   return (
     <ul className={classes.ul}>
